@@ -1,0 +1,9 @@
+[package]
+name = "wayland-tokio"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+env_logger = "0.11.5"
+smithay-client-toolkit = { version = "0.19.2" }
+tokio = { version = "1.41.1", features = ["full"] }
